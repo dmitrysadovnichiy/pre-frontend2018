@@ -1,0 +1,10 @@
+.marker {list-style: none;}
+.marker > li:before {content: '§ ';}
+.mar {list-style: none;}
+.mar > li:before {content: '· ';}
+.error {
+  text-decoration: line-through;
+  color: red;
+}
+.author {list-style: none;}
+.author > div {content: '© Садовничий Д.А.';}
